@@ -103,24 +103,24 @@ export default function FireBaseABTestComponent() {
         getVersionAndUpdateCount().then(setVersion)
     }, [])
 
-    const pageProps = {
+   const pageProps = {
         A: {
             videoSource:
                 "https://zeshuzhu.com/wp-content/uploads/2024/04/VDSDensityLow.mp4",
             redirectUrl:
-                "https://forms.office.com/Pages/DesignPageV2.aspx?subpage=design&token=64d2c620797f46b18c865576c66be57b&id=bGf3QlX0PEKC9twtmXka93AGtF4_r3RLoZb6ISLENWNUOVpYSUxKMU1ONTJYM1hNWDdOQkRFMVAxVy4u",
+                "https://forms.office.com/Pages/ResponsePage.aspx?id=bGf3QlX0PEKC9twtmXka93AGtF4_r3RLoZb6ISLENWNUOVpYSUxKMU1ONTJYM1hNWDdOQkRFMVAxVy4u",
         },
         B: {
             videoSource:
                 "https://zeshuzhu.com/wp-content/uploads/2024/04/VDSDensityMedium.mp4",
             redirectUrl:
-                "https://forms.office.com/Pages/DesignPageV2.aspx?subpage=design&token=4e51ffac4a474f07b1ea4b5512c26c3e&id=bGf3QlX0PEKC9twtmXka93AGtF4_r3RLoZb6ISLENWNUN1NQQzBYTEQ3WjY1QU0zVjQzMjNJSEFJRS4u",
+                "https://forms.office.com/pages/responsepage.aspx?id=bGf3QlX0PEKC9twtmXka93AGtF4_r3RLoZb6ISLENWNUN1NQQzBYTEQ3WjY1QU0zVjQzMjNJSEFJRS4u",
         },
         C: {
             videoSource:
                 "https://zeshuzhu.com/wp-content/uploads/2024/04/VDSDensityHigh.mp4",
             redirectUrl:
-                "https://forms.office.com/Pages/DesignPageV2.aspx?subpage=design&token=205c76402c254152a18007fb7e1c6258&id=bGf3QlX0PEKC9twtmXka93AGtF4_r3RLoZb6ISLENWNUNUJRR0dGN1BLQ00yTjBDV0hSWlZNWjNaMS4u",
+                "https://forms.office.com/pages/responsepage.aspx?id=bGf3QlX0PEKC9twtmXka93AGtF4_r3RLoZb6ISLENWNUNUJRR0dGN1BLQ00yTjBDV0hSWlZNWjNaMS4u",
         },
     }
 
